@@ -1,0 +1,145 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Headings */
+h2 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+h3, h4 {
+  color: #495057;
+  margin-bottom: 15px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Buttons */
+button {
+  background-color: #ff0000;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 10px;
+  margin-right: 5px;
+  margin-left: auto;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Lists */
+.item-list, .user-list {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.item-list ul,
+.user-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.item-list li,
+.user-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.item-list li:last-child,
+.user-list li:last-child {
+  border-bottom: none;
+}
+
+/* Form sections */
+form {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Highlighted cards */
+.item-card {
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+/* Buttons inside cards */
+.item-card button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+}
+
+/* Interactive scaling */
+.item-box {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.item-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .item-list li,
+  .user-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

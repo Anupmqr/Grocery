@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "id": "2",
+      "name": "ball",
+      "price": 50
+    },
+    {
+      "id": "1732802762381",
+      "name": "bat",
+      "price": "6500"
+    },
+    {
+      "id": "1732803423292",
+      "name": "cricket set",
+      "price": "12000"
+    },
+    {
+      "name": "pokemon",
+      "price": "200",
+      "id": "f136f9a3-cb37-436d-a93e-3b3269325065"
+    }
+  ],
+  "users": [
+    {
+      "id": "9a0b",
+      "uname": "manik",
+      "email": "boinavenkatamanikanta@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "f8d8",
+      "uname": "revanth",
+      "email": "boinavenkatamanikanta@gmail.com",
+      "password": "1357"
+    },
+    {
+      "id": "c0cc5c03-da32-4f75-874d-cc64e2a42f17",
+      "uname": "anil",
+      "email": "anil@gmail",
+      "password": "123456"
+    },
+    {
+      "id": "33cc",
+      "uname": "anup",
+      "email": "anup@gmail.com",
+      "password": "456789"
+    }
+  ],
+  "orders": [
+    {
+      "id": "89d6",
+      "uname": "revanth",
+      "items": [
+        {
+          "id": "1732803423292",
+          "name": "cricket set",
+          "price": "12000"
+        }
+      ]
+    }
+  ]
+}
